@@ -1,0 +1,117 @@
+.blogs-container{
+    margin: 15% 20%;
+}
+.blogs{
+    padding: 50px 50px;
+    border: 1px solid darkgrey;
+    max-width: 850px;
+    width: 800px;
+    max-height: fit-content;
+}
+.blogs .blog-title{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.bloog-footer .footer-hr {
+    border-color:  rgb(75, 74, 74);
+    opacity: 0.3;
+    padding-bottom: 20px;
+    margin-top: 20px;
+}
+.bloog-footer .socialmedia{
+    display: flex;
+    gap: 40px;
+    margin-bottom: 10px;
+
+}
+.socialmedia i{
+    font-size: 18px;
+}
+ .views-title, 
+ .comments-title{
+    font-weight: 600;
+    font-size: 13px;
+    color: black;
+    padding: 10px 10px 10px;
+ }
+
+.author-img{
+    border-radius: 50%;
+    height: 40px;
+    width: 40px;
+    border: 1px solid black;
+}
+.time-to-read,
+.time-publiched,
+.author{
+    font-size: 12px !important;
+    color: rgb(14, 14, 14) !important;
+    font-weight: 900;
+}
+
+p{
+    font-weight: 600 !important;
+}
+
+
+
+/* *********************** Blog Scope ********************  */
+.blogs-scope-container{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    margin-top: 20px;
+    max-width: 850px;
+    width: 800px;
+}
+.blog-scope{
+    border: 1px solid darkgrey;
+    max-width: 250px;
+    max-height: 300px;
+}
+.blog-scope-img{
+    max-width: 250px;
+    width: 250px;
+    max-height: 130px;
+}
+.blog-title-scope{
+    padding: 10px 10px;
+    margin-left: 5%;
+}
+.blog-title-scope h5{
+    font-weight: 600;
+    color: black;
+}
+.scope-hr{
+    border-color:  rgb(75, 74, 74);
+    opacity: 0.3;
+    width: 90%;
+}
+.blog-footer-scope{
+    margin-left: 5%;
+    padding: 10px 10px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 60px;
+}
+
+.blog-footer-scope .scope-icons {
+    font-size: 14px; 
+}
+
+.blog-footer-scope .scope-icons i {
+    margin-right: 2px; 
+}
+
+.icon-number {
+    margin-left: 2px; 
+    margin-right: 2px; 
+    font-size: 12px;
+    font-weight: 600 !important;
+}
+
+.blog-footer-scope .scope-heart{
+    float: right;
+    margin-left:auto ;
+}
+
